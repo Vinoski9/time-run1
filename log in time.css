@@ -1,0 +1,86 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+	font-family:arial;
+}
+
+body
+{
+	font-family: 'DM Sans', sans-serif;
+	padding:0;
+	margin:0;
+	background-image:url("C:/Users/USER/Desktop/time run file/timer.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+}
+
+.mbs
+{
+	height:800px;
+	width:280px;
+	background:blue;
+	border-radius:10px;
+	box-shadow:.1px .1px 6px  #000;
+	margin-left:18%;
+	margin-top:12%;
+	margin-bottom:12%;
+}
+.bm
+{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    min-height: 60vh;
+    width: 60vh;
+    border-radius: 20px;
+    box-shadow: 0.1px 0.1px 6px #000;
+
+}
+.bm p
+{
+	
+	text-align:center;
+	font-size:19px;
+	width:auto;
+}
+.hto
+{
+	text-align:center;
+}
+form input
+{
+	width:400px;
+	height:45px;
+	border-radius:4px;
+	text-align:center;
+	margin-bottom:35px;
+	outline:none;
+	font-size:17px;
+	border:2px solid black;
+}
+form a 
+{
+	background:#082a75;
+	border:1.3px solid #000;
+	color:white;
+	border-radius:15px;
+	padding:10px 30px;
+	font-size:15px;
+	cursor:pointer;
+	font-size:17px;
+	margin-left:38%;
+	text-decoration:none;
+}

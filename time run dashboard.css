@@ -1,0 +1,649 @@
+*
+{
+margin:0;
+padding:0;
+text-decoration:none;
+outline:none;
+appearance:none;
+border:none;
+list-style:none;
+box-sizing:border-box;
+}
+
+html
+{
+	font-size:14px;
+}
+body
+{
+	width:100vw;
+	height:100vh;
+	font-family: 'poppins', sans-serif;
+	font-size:0.88rem;
+	background:#f6f6f9;
+	user-select:none;
+	overflow-x:none;
+	color:#363949;
+}
+
+.container
+{
+	display:grid;
+	width:96%;
+	margin:0 auto;
+	gap:1.8rem;
+	grid-template-columns:14rem  auto 3rem;
+}
+a
+{
+	color:#5544ff;
+}
+.text-muted
+{
+	color:gray;
+}
+img
+{
+	display:block;
+	width:100%;
+}
+
+.profile-pic
+{
+	width:2.8rem;
+	height:2.8rem;
+	border-radius:50%;
+	overflow:hidden;
+}
+
+h1
+{
+	font-weight:800;
+	font-size:1.8rem;
+}
+
+h2
+{
+	font-size:1.4rem;
+}
+
+h3
+{
+	font-size:0.87rem;
+}
+
+h4
+{
+	font-size:0.8rem;
+}
+
+h5
+{
+	font-size:0.77rem;
+}
+
+
+}
+
+.gamee
+{
+	display:none;
+}
+small
+{
+	font-size:0.75rem;
+}
+
+.profile-photo
+{
+	width:2.8rem;
+	height:2.8rem;
+	border-radius:50%;
+	overflow:hidden;
+}
+
+.text-muted
+{
+	color:#7d8dal;
+}
+
+p
+{
+color:#677483;	
+}
+
+b
+{
+	color:#363949;
+}
+
+.primary
+{
+	color:#0039b1;
+}
+
+.white
+{
+	color:white;
+}
+
+/*aside
+{
+	height:100vh;
+}*/
+aside .top
+{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	margin-top:1.4rem;
+	padding-left:2rem;
+}
+
+aside .top p
+{
+	font-size:1rem;
+}
+
+aside .close
+{
+	display:none;
+}
+/***********************side bar**********************************/
+
+aside .sidebar
+{
+	display:flex;
+	flex-direction:column;
+	height:86vh;
+	position:relative;
+	top:3rem;
+}
+
+aside h3
+{
+	font-weight:500;
+}
+
+aside .sidebar a
+{
+	display:flex;
+	color:#5544ff;
+	margin-left:2rem;
+	gap:1rem;
+	align-items:center;
+	position:relative;
+	height:3.7rem;
+	transition:all 300ms ease;
+}
+
+aside .sidebar a span
+{
+	font-size:1.6rem;
+	transition:all 300ms ease;
+}
+
+aside .sidebar a:last-child
+{
+	position:absolute;
+	bottom:2rem;
+	width:100%;
+}
+
+
+
+aside .sidebar a.active span
+{
+	color:#fff;
+	margin-left:2px;
+}
+aside .sidebar a:focus
+{
+	color:#ffb601;
+}
+aside .sidebar a:hover
+{
+	color:#ffb601;
+	background:#c5c9ff;
+	margin-left:0;
+	transition:all 300ms ease;
+}
+aside .sidebar a:hover:before
+{
+	content:'';
+	width:6px;
+	height:100%;
+	background:#6c5cff;
+}
+aside .sidebar a:hover span
+{
+	margin-left:1rem;
+}
+
+aside .sidebar .message-count
+{
+	background:#0402ae;
+	color:white;
+	padding:2px 10px;
+	font-size:11px;
+	border-radius:0.4rem;
+}
+/***********************main**********************************/
+
+main
+{
+	margin-top:1.4rem;
+}
+
+.red
+{
+	color:red;
+}
+
+.progress
+	{
+		margin-left;
+		padding-top:1.5rem;
+		height:10rem;
+		width:4rem;
+	}
+
+.green
+{
+	background:#01ff87;
+	border-radius:1rem;
+	color:white;
+	padding:0.3rem;
+	padding-left:8px;
+	width:3.7rem;
+}
+
+.number
+{
+	float:right;
+}
+
+.num
+{
+	float:left;
+}
+
+main .insights
+{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	gap:1.6rem;
+	padding-right:2rem;
+}
+
+main .insights > div
+{
+	background:white;
+	padding:1.8rem;
+	border-radius:2rem;
+	margin-top:1rem;
+	box-shadow:0 2rem 3rem rgba(132,139,200,0.18);
+	transition:all 300ms ease;
+	
+}
+
+main .insights > div:hover
+{
+	box-shadow:none;
+}
+
+main .insights > div span
+{
+	background:transparent;
+	color:#5544ff;
+	font-size:4rem;
+	height:4vh;
+	width:4vw;
+}
+
+main .insights >  .account span
+{
+	color:#ff3dce;
+}
+
+main .insights > .members span
+{
+	color:#01ff87;
+}
+
+main .insights h3 
+{
+	margin:1rem 0.06rem;
+	font-size:1rem;
+}
+
+main .insights small
+{
+	margin-top:1.6rem;
+	display:block;
+}
+
+main .time-sponsors
+{
+	margin-top:4rem;
+}
+
+main .time-sponsors h2
+{
+	margin-bottom:1rem;
+}
+
+main .time-sponsors table
+{
+	background:white;
+	width:100%;
+	border-radius:2rem;
+	padding:1.8rem;
+	text-align:center;
+	box-shadow:0 2rem 3rem rgba(132,139,200,0.18);
+	transition:all 300ms ease;	
+	
+	
+}
+
+.top span
+{
+	width:3rem;
+	height:3rem;
+}
+.eh
+{
+	display:block;
+	width:100%;
+}
+main .time-sponsors table:hover
+{
+	box-shadow:none;
+}
+
+main table thead th
+{
+	
+	margin-left:10%;
+	margin-right:10%;
+	text-align:center;
+	padding-right:15%;
+}
+
+main table tbody td
+{
+	height:2.8rem;
+	border-bottom:1px solid #f6f6f9;
+	color:#949494;
+	text-align:center;
+	padding-right:10%;
+}
+
+main table tbody tr:last-child td
+{
+	border:none;
+}
+
+.Sales-analytics
+{
+	margin-top:2rem;
+}
+
+.Sales-analytics h3
+{
+	margin-bottom:0.8rem;
+	padding-top:1rem;
+}
+
+.Sales-analytics .item-add-product
+{
+	background-color:transparent;
+	border:2px dashed #5544ff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-bottom:0.8rem;
+	padding:1.4rem;
+	border-radius:2rem;
+	gap:0.6rem;
+	
+}
+
+.Sales-analytics .item-add-product h3
+{
+	font-weight:600;
+}
+
+.right
+{
+	margin-top:1.4rem;
+}
+.right .top
+{
+	display:flex;
+	justify-content:end;
+	gap:2rem;
+	margin-left:70%;
+}
+
+.right .top button
+{
+	display:none;
+}
+
+.profile
+{
+	display:flex;
+	gap:2rem;
+	text-align:right;
+}
+
+.info
+{
+	margin-top:1rem;
+}
+
+/**********************************************************************/
+@media screen and (max-width: 1200px)
+{
+	.container{
+		width:94%;
+		grid-template-columns:7rem auto ;
+		
+	}
+	
+	aside .top 
+	{
+		margin-top:2rem;
+	}
+	
+	aside .sidebar h3
+	{
+		display:none;
+	}
+	
+	aside .sidebar a
+	{
+		width:5.6rem;
+	}
+	
+	aside .top h2
+	{
+		font-size:2rem;
+	}
+	
+	aside .top p
+	{
+		display:;
+	}
+	
+	aside .sidebar a:last-child
+	{
+		position:relative;
+		margin-top:1.8rem;
+	}
+	
+	main .insights 
+	{
+		grid-template-columns:1fr;
+		gap:0;
+	}
+	
+	main .time-sponsors
+	{
+		width:94%;
+		position:absolute;
+		left:50%;
+		transform:translate(-50%);
+		margin:2rem 0 0 8.8rem;
+	}
+	
+	main .time-sponsors table
+	{
+		width:83vw;
+		
+	}
+	
+	.Sales-analytics .item-add-product
+	{
+		display:none;
+	}
+}
+/*******************************************************************/
+@media screen and (max-width: 768px)
+{
+	.cointainer
+	{
+		width:100%;
+		grid-template-columns:1rem auto 1rem ;
+	}
+	main .insights 
+	{
+		width:93vw;
+		gap:0;
+		grid-template-columns:1fr;
+	}
+	
+	aside
+	{
+		position:fixed;
+		left:0;
+		background:white;
+		width:18rem;
+		z-index:3;
+		box-shadow:1rem 3rem 4rem rgba(132,139,200,0.18);
+		height:100vh;
+		padding-right:1.8rem;
+		display:none;
+		overflow-x:scroll;
+	}
+	aside .logo h2
+	{
+		display:inline;
+	}
+	
+	aside .sidebar h3
+	{
+		display:inline;
+	}
+	
+	aside .sidebar a 
+	{
+		width:100%;
+		height:3.4rem;
+	}
+	aside .sidebar a:last-child 
+	{
+		position:absolute;
+		bottom:5rem;
+	}
+	
+	aside .close
+	{
+		display:inline-block;
+		cursor:pointer;
+		float:right;
+	}
+	
+	main
+	{
+		margin-top:8rem;
+		padding:0 1rem;
+	}
+	
+	main .time-sponsors
+	{
+		position:relative;
+		margin:3rem 0 0 0;
+		width:100%;
+	}
+	
+	main.time-sponsors table
+	{
+		width:100%;
+		margin:0;
+	}
+	
+	.right
+	{
+		width:94%;
+		margin:0 auto 4rem;
+	}
+	
+	.right .top
+	{
+		position:fixed;
+		top:0;
+		left:0;
+		align-items:center;
+		padding:0 0.8rem;
+		height:4.6rem;
+		background:#fff;
+		width:100%;
+		margin:0;
+		z-index:2;
+		box-shadow:0 1rem 1rem rgba(132,139,200,0.18);
+	}
+	
+	/*.right .profile .info
+	{
+		display:none;
+	}*/
+	
+	.right .top button
+	{
+		display:inline-block;
+		background:transparent;
+		cursor:Pointer;
+		color:#5544ff;
+		position:absolute;
+		left:1rem;
+	}
+	
+	
+	
+	.Sales-analytics .item-add-product
+	{
+		position:relative;
+		margin-top:34rem;
+		display:flex;
+		width:92vw;
+		height:6vh;
+		left:0;
+	}
+	.eh
+{
+	font-size:1rem;
+	
+}
+	main .time-sponsors
+	{
+		width:94%;
+		position:absolute;
+	}
+	main .time-sponsors table
+	{
+		width:95vw;
+		
+	}
+}

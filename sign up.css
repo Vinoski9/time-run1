@@ -1,0 +1,35 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+	font-family:arial;
+}
+
+body
+{
+	font-family: 'DM Sans', sans-serif;
+	padding:0;
+	margin:0;
+	background-image:url("C:/Users/USER/Desktop/time run file/timer.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	}
+}
+
+.mb
+{
+	height:35vh;
+	width:15vw;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:.1px .1px 6px  #000;
+	margin-left:18%;
+	margin-top:12%;
+	margin-bottom:12%;
+}

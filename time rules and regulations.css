@@ -1,0 +1,54 @@
+
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+	font-family:arial;
+}
+body
+{
+	font-family: 'DM Sans', sans-serif;
+	padding:0;
+	margin:0;
+	background-image:url("C:/Users/USER/Desktop/time run file/timer.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	}
+.sec
+{
+	height:auto;
+	width:auto;
+	background-color:transparent;
+	border-radius:10px;
+	box-shadow:.1px .1px 6px  #000;
+	margin-right:18%;
+	margin-left:18%;
+	margin-top:12%;
+	margin-bottom:12%;
+}
+
+.see
+{
+	margin-right:10%;
+	margin-left:10%;
+}
+
+.see p 
+{
+	padding-bottom:3rem;
+	text-align:center
+}
+
+.hd
+{
+	text-align:center;
+	padding-bottom:3rem;
+	padding-top:3rem;
+}
+.pd
+{
+	text-align:center;
+	padding-bottom:3rem;
+}
